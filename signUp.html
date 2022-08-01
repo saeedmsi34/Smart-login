@@ -1,0 +1,74 @@
+<html>
+
+<head>
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/all.min.css">
+  <link rel="stylesheet" href="main.css">
+</head>
+
+<body>
+
+
+  <section class="smart">
+    
+
+    <div class="cont">
+      <div class="smat-loginUP">
+        <div class="pt-4">
+          <h1 class="system">Smart Login System</h1>
+        </div>
+        <div class="d-flex justify-content-center my-3">
+          <input class="inputNameSignup text-decoration-none form-control bg-transparent  " type="text" name="name"
+            id="inputnameSignup" placeholder="Enter your name">
+        </div>
+        <p id="nameAlert" class="text-danger d-none ">include at least 5 letters starting  with capital , second name is optional</p>
+
+       
+        <div class="d-flex justify-content-center my-3">
+          <input class="inputEmailSignup text-decoration-none form-control bg-transparent " type="text" name="email"
+            id="inputemailSignup" placeholder="Enter your email">
+
+        </div>
+        <p id="emailAlert" class="text-danger d-none">name@example.com</p>
+
+        <div class="d-flex justify-content-center my-3">
+          <input class="inputPasswordSignup text-decoration-none form-control  bg-transparent " type="password"
+            name="password " id="inputpasswordSignup" placeholder="Enter your password">
+
+        </div>
+        <p id="passwordAlert" class="text-danger d-none ">you must strenth your password, from 5 to 15 characters</p>
+
+        <p class="text-success  d-none my-2" id="confirmMsg">Success</p>
+        <p class="text-danger  d-none my-2" id="accountexistMsg">this account is exist! Try another one.</p>
+        <p class="text-danger  d-none  my-2" id="tryagainMsg">signUp failed ! Try again</p>
+
+
+        <div class="d-flex justify-content-center mt-4">
+          <a class="btn btn-outline-info btns text-decoration-none" onclick="signUp()">Sign Up</a>
+        </div>
+        <div class="d-flex justify-content-center mt-3 ">
+          <p class="text-white ">You have an account? <a href="index.html" class="text-white" onclick="signin()">Sign
+              In</a></p>
+
+        </div>
+        <a href="index.html" class="btn btn-outline-success d-none text-white w-25 mb-3 m-auto" id="signin">signin</a>
+
+      </div>
+    </div>
+  </section>
+
+
+
+
+
+
+
+
+
+
+  <script src="js/popper.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/main.js"></script>
+</body>
+
+</html>

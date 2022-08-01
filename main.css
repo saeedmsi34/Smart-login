@@ -1,0 +1,79 @@
+*
+{   
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;   
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 17px;
+z-index: 99999999;
+}
+html{
+    scroll-behavior: smooth;
+}
+
+
+.smart{
+    background-color: #153a43;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white !important;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}
+.cont{
+    width: 60%!important;
+    text-align: center !important;
+ 
+}
+.system{
+    color: #1aa8cc;
+}
+.smat-login{
+    background-color: #153a43 !important;
+    height: 55vh;
+    box-shadow: #13010166 10px 10px 10px 15px  !important;
+}
+.smat-loginUp{
+    background-color: #153a43 !important;
+    height: fit-content;
+    box-shadow: #13010166 10px 10px 10px 15px  !important;
+}
+
+.btns{
+    width: 90%;
+    box-shadow: none !important;
+    border: solid 2px  #0d7084 !important ;
+    outline: none !important;
+    box-shadow: none !important;
+}
+input:focus{
+    border: solid 2px  #0d7084 !important ;
+    outline: none !important;
+    box-shadow: #0d7084  1px 1px 1px 1px  !important;
+    box-sizing: border-box !important;
+}
+input{
+    color: white !important;
+    width: 90%!important;
+    
+}
+.navbar{
+    background-color: #0d7084 !important;
+    box-shadow: #000000 8px 8px 8px 8px !important;
+}
+#nav{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 999999;
+}
+.group{
+    background-color: #085b6c;
+    box-shadow: rgb(0, 0, 8) 10px 10px 20px 20px;
+    height: 30vh;
+}
+
